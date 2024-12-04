@@ -18,5 +18,5 @@ services:
     command: yes database
 
   users:
-    image: custom-users-image
+    image: docker.io/nadiadubell/my-users-image:v1
     command: ["sh", "-c", "while true; do echo users; done"]
